@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+exec perl `basename $0`.pl "$@" 
+
